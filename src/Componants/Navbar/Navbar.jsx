@@ -9,7 +9,7 @@ const Navbar = () => {
               <div className="flex-1">
                 <a className="w-[60px] h-[60px] "><img src={navLogo} alt=" Brand Logo" /></a>
               </div>
-               <div className='flex item-center'>
+               <div className="flex item-center bg-amber-300 p-2 rounded-lg">
                 <span className='text-xl mr-1'>6000</span>
                 <span className='text-xl mr-1'>Coin</span>
                 <img  src={coin} alt="" />
